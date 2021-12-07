@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Layout.module.css'
+
 import paris from '../public/images/paris.jpg';
 import sydney from '../public/images/sydney.jpg';
 import brisbane from '../public/images/brisbane.jpg';
@@ -26,10 +27,10 @@ export default function Home() {
           </div>  
         </div>
       </div>
-      <div className = {styles.containerWhite}>
+      <div className = {styles.containerInfo}>
         <h1>Explore | Discover new destinations</h1>
         <div className = {styles.grid}>
-          <div className = {styles.card}>
+          <div className = {`${styles.card} ${styles.colorBlack}`}>
             <Image src={sydney} alt="" />
             <div className = {styles.cardText}>
               <h2>Syndey</h2>
@@ -37,7 +38,7 @@ export default function Home() {
               <p>10 km away</p>
             </div>
           </div>
-          <div className = {styles.card}>
+          <div className = {`${styles.card} ${styles.colorBlack}`}>
             <Image src={brisbane} alt="" />
             <div className = {styles.cardText}>
               <h2>Brisbane</h2>
@@ -45,7 +46,7 @@ export default function Home() {
               <p>452 km away</p>
             </div>
           </div>
-          <div className = {styles.card}>
+          <div className = {`${styles.card} ${styles.colorBlack}`}>
             <Image src={hongkong} alt="" />
             <div className = {styles.cardText}>
               <h2>Hong Kong</h2>
@@ -53,7 +54,7 @@ export default function Home() {
               <p>4690 km away</p>
             </div>
           </div>
-          <div className = {styles.card}>
+          <div className = {`${styles.card} ${styles.colorBlack}`}>
             <Image src={tokyo} alt="" />
             <div className = {styles.cardText}>
               <h2>Tokyo</h2>
