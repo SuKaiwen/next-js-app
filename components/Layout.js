@@ -2,6 +2,7 @@ import React from 'react';
 import styles from '../styles/Layout.module.css';
 import Nav from './Nav';
 import Head from "next/head";
+import Footer from './Footer';
 
 function Layout({children}) {
     return (
@@ -17,6 +18,7 @@ function Layout({children}) {
                     {children}
                 </main>
             </div>
+            <Footer />
         </div>
     );
 }
