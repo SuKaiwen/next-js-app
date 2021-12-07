@@ -6,6 +6,9 @@ import sydney from '../public/images/sydney.jpg';
 import brisbane from '../public/images/brisbane.jpg';
 import hongkong from '../public/images/hongkong.jpg';
 import tokyo from '../public/images/tokyo.jpg';
+import canyon from '../public/images/canyon.jpg';
+import buckingham from '../public/images/buckingham.jpg';
+import host from '../public/images/host.jpg';
 
 export default function Home() {
   return (
@@ -59,6 +62,48 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <h1>Recommendations | Uncover new experiences</h1>
+        <div className = {styles.grid}>
+          <div className = {styles.experienceCard}>
+            <div className = {styles.box}>
+              <Image src={canyon} alt="" />
+              <div className = {styles.text}>
+                <h1>Grand Canyon</h1>
+                <h2>Arizona, USA</h2>
+                <hr />
+                <br />
+                <button className = {styles.button}>View more</button>
+              </div>
+            </div>
+          </div>
+          <div className = {styles.experienceCard}>
+            <div className = {styles.box}>
+                <Image src={buckingham} alt="" />
+                <div className = {styles.text}>
+                  <h1>Buckingham Palace</h1>
+                  <h2>London, UK</h2>
+                  <hr />
+                  <br />
+                  <button className = {styles.button}>View more</button>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div className = {styles.hostCard}>
+          <div className = {styles.box}>
+            <Image src={host} alt="" />
+              <div>
+                  <div className = {styles.text}>
+                    <h1>Thinking about hosting?</h1>
+                    <h3>Flick us a message!</h3>
+                    <hr />
+                    <br />
+                    <button className = {styles.button}>Ask</button>
+                  </div>
+              </div> 
+            </div> 
+        </div>
+        
       </div>
     </div>
   )
