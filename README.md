@@ -9,4 +9,9 @@ About Us Page
 ![image](https://user-images.githubusercontent.com/56058518/145122511-5afd7791-7331-4450-ab8c-3641e0dcfe09.png)
 ![image](https://user-images.githubusercontent.com/56058518/145122577-0993eb39-e535-43ba-9449-06c767efdccd.png)
 ![image](https://user-images.githubusercontent.com/56058518/145122600-0a63475b-1580-4049-a854-e94d592dc8ce.png)
+Hosting Page
+![image](https://user-images.githubusercontent.com/56058518/145147950-5afdcceb-1395-44bb-9e5c-39d525cd1b5a.png)
+![image](https://user-images.githubusercontent.com/56058518/145147976-396431d8-4c7f-4bb7-add5-9817cb7ba92e.png)
+![image](https://user-images.githubusercontent.com/56058518/145148008-4ecb533f-ab75-4108-a325-b4b13756160e.png)
+![image](https://user-images.githubusercontent.com/56058518/145148032-e911f5f2-f14f-44d8-a159-fbadcee40f7d.png)
 
