@@ -5,13 +5,13 @@ import Link from 'next/link';
 function Nav(props) {
     return (
         <nav className={navStyles.nav}>
-            <div className={navStyles.navLogo}>aircnc</div>
+            <div className={navStyles.navLogo}>[A] aircnc</div>
             <ul>
                 <li>
                     <Link href="/">Home</Link>
                 </li>
                 <li>
-                    <Link href="/about">Become a host</Link>
+                    <Link href="/host">Become a host</Link>
                 </li>
                 <li>
                     <Link href="/about">About</Link>

@@ -21,6 +21,16 @@
   padding: 10%;
 }
 
+.containerHalf{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -59,6 +69,11 @@
   font-size: 20px;
   font-weight: bold;
   min-width: 160px;
+}
+
+.buttonVar2{
+  color: white;
+  background-color: palevioletred;
 }
 
 @media (width < 1200px) {
@@ -158,6 +173,11 @@
   flex-wrap: wrap;
   width: 100%;
   margin-bottom: 100px;
+}
+
+.hostText p{
+  text-align: left;
+  font-size: 13px !important;
 }
 
 .card {
@@ -275,6 +295,48 @@
   }
 }
 
+.hostGrid{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+@media (width < 800px){
+  .hostGrid{
+    flex-direction: column-reverse;
+  }
+
+  .hostPadding{
+    padding: 0;
+  }
+
+  .hostColumn{
+    width: 100% !important;
+  }
+}
+
+.hostColumn{
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.hostColumn .hostImage{
+  object-fit: contain !important;
+  width: 100%;
+  height: 100%;
+}
+
+.hostText{
+  font-size: 2.5vw;
+}
+
+.hostCard{
+  text-align: left;
+}
+
 .card:hover,
 .card:focus,
 .card:active {
@@ -295,4 +357,8 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.half {
+  width: 100%;
 }
