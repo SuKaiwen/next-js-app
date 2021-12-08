@@ -1,4 +1,6 @@
-AirCnC app where I practise my Next JS and CSS skills. So far I have created the landing page.
+AirCnC is a project that I used to practise Next JS and CSS skills.
+
+Home Page
 ![image](https://user-images.githubusercontent.com/56058518/144973309-5a52bde7-2c58-4618-b28e-07212280a89e.png)
 ![image](https://user-images.githubusercontent.com/56058518/144974470-a02a978a-12ce-434e-93f0-27c27bc2c80a.png)
 ![image](https://user-images.githubusercontent.com/56058518/144974501-df2aa10c-7734-4463-9ea8-9e870e35d18e.png)
