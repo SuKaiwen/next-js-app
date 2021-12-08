@@ -5,4 +5,8 @@ AirCnC app where I practise my Next JS and CSS skills. So far I have created the
 ![image](https://user-images.githubusercontent.com/56058518/144974528-41450022-f297-4b41-8bae-0056f7eedf31.png)
 ![image](https://user-images.githubusercontent.com/56058518/144974570-b5e064d8-b0ec-4047-b5f7-bd391f7e0be0.png)
 ![image](https://user-images.githubusercontent.com/56058518/144974587-0584462e-9f47-4057-816b-b5d427195443.png)
+About Us Page
+![image](https://user-images.githubusercontent.com/56058518/145122511-5afd7791-7331-4450-ab8c-3641e0dcfe09.png)
+![image](https://user-images.githubusercontent.com/56058518/145122577-0993eb39-e535-43ba-9449-06c767efdccd.png)
+![image](https://user-images.githubusercontent.com/56058518/145122600-0a63475b-1580-4049-a854-e94d592dc8ce.png)
 
